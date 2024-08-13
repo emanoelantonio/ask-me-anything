@@ -1,50 +1,53 @@
-# React + TypeScript + Vite
+# Ask Me Anything
+> Status do Projeto: Em desenvolvimento :construction:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto Web voltado para interação com profissionais de tecnologia. 
+Com ele um profissional se dispõe a responder perguntas relativas a sua profissão. 
+Então o usuário pode entrar em uma sala com o profissional escolhido e fazer perguntas ou reagir a perguntas feitas por outros usuários.
+## Requisitos
+**Profissional**
+ - Pode responder perguntas de um ou mais usuários;
+ - Deve estar em uma sala registrada para poder responder as perguntas;
 
-Currently, two official plugins are available:
+**Usuário**
+ - Deve se registrar em uma sala ou entrar em uma sala aberta;
+ - Pode fazer uma ou mais perguntas;
+ - Pode reagir a uma ou mais perguntas dos outros usuários;
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Front End
 
-## Expanding the ESLint configuration
+- [Reactjs](https://react.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwindcss](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/en/main)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Back End 
+> Status do Projeto: Em desenvolvimento :construction:
 
-- Configure the top-level `parserOptions` property like this:
+- [Nodejs](https://nodejs.org/en)
+- [WS](https://github.com/websockets/ws)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Knex](https://knexjs.org/)
+- [Docker](https://www.docker.com/)
+- [Typescript](https://www.typescriptlang.org/)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Issues :
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### 📑 Report :
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Você pode reportar algum problema na seção <a href="https://github.com/emanoelantonio/ask-me-anything/issues">Issues</a>, considere importante.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### 🤝 Contribuindo - We can advanced together!
+
+
+### 🧠 Author :
+ <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/60781248?s=460&u=43dbba3483d275c3d8964df24a8f5139f53dc282&v=4" width="100px;" alt="imagem de perfil do autor"/>
+ <br />
+ <sub>Emanoel Antonio 👨🏻‍💻</sub>
+
+" _To be continue..._"
+
+ ![Twitter Follow](https://img.shields.io/twitter/follow/DevEmanoel?style=social)</br>
+ <a href="https://www.linkedin.com/in/emanoel-antonio-silva/"><img align="center" src="https://img.shields.io/static/v1?label=&message=Linkedin&color=3D008A&style=for-the-badge&logo=linkedin"/></a>
